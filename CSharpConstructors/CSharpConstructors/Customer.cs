@@ -60,5 +60,11 @@ namespace CSharpConstructors {
                 Console.WriteLine("Transaction unsuccessful! One of the accounts is closed!");
             }
         }
+
+        //Cannot be static because it relies on a property OUTSIDE of the method 
+        //Static cannot access instance data
+        //public void ShipTo(Product product) {
+        //    UPS.Ship(product).To(ShippingAddress);
+        //}
     }
 }

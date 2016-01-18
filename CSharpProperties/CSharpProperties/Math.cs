@@ -17,7 +17,7 @@ namespace CSharpProperties {
             return sum;
         }
 
-        //crazy Math Assignment
+        //Crazy Math Assignment
         public static int DoSomething(int n1, int n2) {
             return n1 / n2;
         }
